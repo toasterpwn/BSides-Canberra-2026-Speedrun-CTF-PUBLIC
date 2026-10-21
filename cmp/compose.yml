@@ -1,0 +1,11 @@
+services:
+  chal:
+    build: .
+    platform: linux/amd64
+    ports:
+      - "${PORT:-10000}:1337"
+    container_name: "cmp"
+
+    restart: unless-stopped
+
+    privileged: false

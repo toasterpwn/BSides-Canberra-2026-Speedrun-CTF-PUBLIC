@@ -1,0 +1,11 @@
+services:
+  chal:
+    build: .
+    platform: linux/amd64
+    ports:
+      - "${PORT:-10001}:1337"
+    container_name: "mindtwist"
+
+    restart: unless-stopped
+
+    privileged: false
