@@ -49,6 +49,7 @@ Public release for the BSides Canberra 2026 Speedrun CTF.
 ## Playtesters
 
 - [unvariant](https://unvariant.pages.dev/)
+- slidybat
 
 ## BSides Organisers
 
